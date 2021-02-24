@@ -1,7 +1,7 @@
 # bitcoin
 Original Bitcoin v1.0 Source by Satoshi Nakamoto 2009
 
-#BitCoin v0.01 ALPHA
+# BitCoin v0.01 ALPHA
 
 Copyright (c) 2009 Satoshi Nakamoto
 Distributed under the MIT/X11 software license, see the accompanying
@@ -11,31 +11,33 @@ the OpenSSL Toolkit (http://www.openssl.org/).  This product includes
 cryptographic software written by Eric Young (eay@cryptsoft.com).
 
 
-#Compilers Supported
+# Compilers Supported
 -------------------
 MinGW GCC (v3.4.5)
 Microsoft Visual C++ 6.0 SP6
 
 
-#Dependencies
+# Dependencies
 ------------
 Libraries you need to obtain separately to build:
-
+```
               default path   download
 wxWidgets      \wxWidgets     http://www.wxwidgets.org/downloads/
 OpenSSL        \OpenSSL       http://www.openssl.org/source/
 Berkeley DB    \DB            http://www.oracle.com/technology/software/products/berkeley-db/index.html
 Boost          \Boost         http://www.boost.org/users/download/
-
+```
+```
 Their licenses:
 wxWidgets      LGPL 2.1 with very liberal exceptions
 OpenSSL        Old BSD license with the problematic advertising requirement
 Berkeley DB    New BSD license with additional requirement that linked software must be free open source
 Boost          MIT-like license
+```
 
-
-#OpenSSL
+# OpenSSL
 -------
+```
 Bitcoin does not use any encryption.  If you want to do a no-everything
 build of OpenSSL to exclude encryption routines, a few patches are required.
 (OpenSSL v0.9.8h)
@@ -63,9 +65,9 @@ Build
 
 If you want to use it with MSVC, generate the .lib file
   lib /machine:i386 /def:ms\libeay32.def /out:out\libeay32.lib
+```
 
-
-#Berkeley DB
+# Berkeley DB
 -----------
 MinGW with MSYS:
 cd \DB\build_unix
@@ -73,7 +75,7 @@ sh ../dist/configure --enable-mingw --enable-cxx
 make
 
 
-#Boost
+# Boost
 -----
 You may need Boost version 1.35 to build with MSVC 6.0.  I couldn't get
 version 1.37 to compile with MSVC 6.0.
