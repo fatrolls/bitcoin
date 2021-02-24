@@ -69,13 +69,16 @@ If you want to use it with MSVC, generate the .lib file
 
 # Berkeley DB
 -----------
+```
 MinGW with MSYS:
 cd \DB\build_unix
 sh ../dist/configure --enable-mingw --enable-cxx
 make
-
+```
 
 # Boost
 -----
+```
 You may need Boost version 1.35 to build with MSVC 6.0.  I couldn't get
 version 1.37 to compile with MSVC 6.0.
+```
