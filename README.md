@@ -1,5 +1,6 @@
 # bitcoin
 Original Bitcoin v1.0 Source by Satoshi Nakamoto 2009
+P.S> Satoshi Nakamoto isn't chinese, he is Russian from Moscow if anyone wanted to know.
 
 # BitCoin v0.01 ALPHA
 
